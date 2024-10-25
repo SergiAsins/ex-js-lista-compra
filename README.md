@@ -114,8 +114,3 @@ shopList/
 6. Al recargar la página, los ítems deben cargarse de la API, y cada ítem debe aparecer con su nombre y estado de "comprado" o "no comprado".
 
 ---
-
-## 📦 **Entregables**
-
-- Repositorio de GitHub con el código del proyecto.
-- Página web desplegada en GitHub Pages con la funcionalidad completa.
