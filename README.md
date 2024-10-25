@@ -21,19 +21,18 @@ Esta aplicación permite a los usuarios crear, editar y eliminar productos, faci
 
 ## **Arquitectura del proyecto**
 shopList/
-│
+
 ├── index.html                  
-│
+
 ├── README.md                  
-│
+
 ├── styles.css                  
-│
+
 ├── script.js                  
-│
+
 ├── api/                        
-│   └── api.service.js          
-│
-└── assets/                    
+     └── api.service.js          
+                
 
 
 ## **Funcionalidades Clave**
