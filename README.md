@@ -1,4 +1,7 @@
-# **Project Lluvia de Bugs - Aplicación de Lista de la Compra: CRUD con JavaScript**
+______________________________________________________________
+# 🛒 **Aplicación de Lista de la Compra: CRUD con JavaScript**
+
+## **Project Lluvia de Bugs - Aplicación de Lista de la Compra: CRUD con JavaScript**
 
 ## **Objetivo**
 Esta aplicación permite a los usuarios crear, editar y eliminar productos, facilitando la gestión de una lista de compra básica en CRUD, en JavaScript.
@@ -17,7 +20,20 @@ Esta aplicación permite a los usuarios crear, editar y eliminar productos, faci
 - Mock Api + Postman
 
 ## **Arquitectura del proyecto**
-
+shopList/
+│
+├── index.html                  
+│
+├── README.md                  
+│
+├── styles.css                  
+│
+├── script.js                  
+│
+├── api/                        
+│   └── api.service.js          
+│
+└── assets/                    
 
 
 ## **Funcionalidades Clave**
@@ -29,39 +45,6 @@ Esta aplicación permite a los usuarios crear, editar y eliminar productos, faci
 - [Fran Garcia](https://github.com/FranGarciaga)
 - [Stefano Micciche](https://github.com/LilBiscuit12)
 - [Andreea Celmare](https://github.com/andreeaclmr)
-
-
-
-______________________________________________________________
-# 🛒 **Aplicación de Lista de la Compra: CRUD con JavaScript**
-
-## 📝 **Introducción**
-
-En este ejercicio, vamos a desarrollar una funcionalidad básica de una **lista de la compra** usando JavaScript. Esta lista permitirá gestionar los ítems que quieres añadir y eliminar, implementando las operaciones básicas de un CRUD (**Create, Read, Update, Delete**) sobre una lista en memoria del navegador.
-
-- **Crear**: El usuario podrá añadir nuevos ítems a la lista.
-- **Leer**: Al cargar la página, la lista mostrará los ítems existentes.
-- **Eliminar**: Los ítems podrán ser eliminados individualmente.
-
-La lista ya estará previamente creada con algunos ítems por defecto, y tu tarea será completar la funcionalidad de **visualizar**, **crear** y **eliminar** elementos.
-
-Referencia:
-
-![Lista de la Compra](./readme-files/lista-compra-ref.gif)
-
-## 🎯 **Objetivos de Aprendizaje**
-
-1. **Manejo de DOM**: Aprender a manipular el DOM dinámicamente para crear, eliminar y actualizar elementos de la página, como los ítems de la lista de la compra.
-2. **Lectura de datos desde el DOM**: Implementar la operación de **lectura** para cargar y mostrar ítems de una lista en memoria al iniciar la aplicación, incluyendo su visualización en el DOM.
-3. **Validación de Entradas**: Aprender a validar las entradas del usuario para evitar duplicados, entradas vacías o con solo espacios, y limitar el número de caracteres en el nombre del ítem.
-4. **CRUD en Frontend**: Implementar las operaciones básicas de un CRUD, centrándose en las acciones de **creación**, **lectura** y **eliminación** de ítems en una lista gestionada en el frontend.
-5. **Manipulación de Arrays**: Practicar cómo manejar arrays en JavaScript para añadir, eliminar y filtrar elementos, así como para mantener sincronizados los ítems de la lista.
-6. **Manejo de Eventos en JavaScript**: Usar y gestionar eventos en JavaScript (por ejemplo, `click`) para interactuar con el usuario al agregar o eliminar ítems de la lista.
-7. **Manejo de Estados Visuales**: Cambiar el estilo visual de los ítems para reflejar su estado (por ejemplo, tachado o resaltado) cuando se marquen como "comprados".
-8. **CRUD con API**: Sincronizar las operaciones de **creación**, **lectura**, **actualización** y **eliminación** de los ítems con una API externa, trabajando con solicitudes **GET**, **POST**, **PUT** y **DELETE**.
-9. **Manejo de IDs con API**: Aprender a gestionar identificadores únicos (**ID**) proporcionados por una API para cada ítem, asegurando que las operaciones de CRUD estén sincronizadas entre la aplicación frontend y la API.
-
----
 
 ## 👁️‍🗨️ Historia de Usuario 1: Ver la lista de ítems
 
